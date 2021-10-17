@@ -1,0 +1,11 @@
+<!--pages/welcome/welcome.wxml-->
+<view class="container">
+  <l-avatar class="l-avatar" placement="bottom" shape="circle" open-data="{{['userAvatarUrl','userNickName']}}"
+  size="180"/>
+  <text class="motto">Hello,七月</text>
+  <view class="jourey-container" bind:tap="OnTap">
+    <text class="journey">开启小程序之旅</text>
+  </view>
+</view>
+
+<!-- 事件的回调函数 -->
